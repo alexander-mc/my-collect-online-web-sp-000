@@ -22,5 +22,5 @@ end
 
 array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 hello(array) do |name|
-  name.split(" ").first
+  puts name.split(" ").first
 end
